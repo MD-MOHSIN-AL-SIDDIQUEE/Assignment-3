@@ -94,19 +94,22 @@ function  brickCalculator(building){
     var result=brickCalculator(building)
     console.log("Total amount of brick=",result)
 
-    //assignment=4
+
+//assignment No. 4
+
     function tinyFriend(){
 
-      min=friendName[0].length
-      for(i=0;i<friendName.length;i++){
+    min=friendName[0].length
+
+    for(i=0;i<friendName.length;i++){
        
-     if(friendName[i]==undefined){
+        if(friendName[i]==undefined){
                tinyfriend= ("In "+i+"th position empty array is defiend")
            } else{
 
        element=friendName[i].length;
 
- if(element<min){
+        if(element<min){
            min=element;
            tinyfriend=friendName[i]
        }
